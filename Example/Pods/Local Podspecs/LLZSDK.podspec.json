@@ -1,0 +1,22 @@
+{
+  "name": "LLZSDK",
+  "version": "0.1.0",
+  "summary": "A short description of LLZSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanmeizty@sina.cn/LLZSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanmeizty@sina.cn": "zhangtingyong@thefifthera.com"
+  },
+  "source": {
+    "git": "https://github.com/wanmeizty@sina.cn/LLZSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LLZSDK/Classes/**/*"
+}
