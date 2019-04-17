@@ -28,7 +28,7 @@ TODO: 流量主SDK开发
   s.source           = { :git => 'https://github.com/wanmeizty@sina.cn/LLZSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'LLZSDK/Classes/**/*'
   
@@ -38,5 +38,6 @@ TODO: 流量主SDK开发
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+    s.requires_arc = true #是否支持ARC
   # s.dependency 'AFNetworking', '~> 2.3'
 end
